@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wedding</title>
+    <link rel="stylesheet" href="/ours/styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Alton & Sierra's Wedding</h1>
+            <nav>
+                <ul>
+                    <li><a href="#our-story">Our Story</a></li>
+                    <li><a href="#event-details">Event Details</a></li>
+                    <li><a href="#rsvp">RSVP</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="our-story" class="our-story">
+            <h2>Our Story</h2>
+            <p>Alton and Sierra met in college and have been inseparable ever since. Their journey has been filled with love, laughter, and countless memories.</p>
+            <img src="images/our-story.jpg" alt="John and Jane's journey">
+        </section>
+        <section id="event-details" class="event-details">
+            <h2>Event Details</h2>
+            <div class="event-info">
+                <div>
+                    <h3>Ceremony</h3>
+                    <p>Date: July 15, 2024</p>
+                    <p>Time: 3:00 PM</p>
+                    <p>Location: Beautiful Church, City</p>
+                </div>
+                <div>
+                    <h3>Reception</h3>
+                    <p>Date: July 15, 2024</p>
+                    <p>Time: 5:00 PM</p>
+                    <p>Location: Grand Hall, City</p>
+                </div>
+            </div>
+        </section>
+        <section id="rsvp" class="rsvp">
+            <h2>RSVP</h2>
+            <form action="submit-rsvp" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="attendance">Will you attend?</label>
+                <select id="attendance" name="attendance">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="images/photo1.jpg" alt="Photo 1">
+                <img src="images/photo2.jpg" alt="Photo 2">
+                <img src="images/photo3.jpg" alt="Photo 3">
+                <img src="images/photo4.jpg" alt="Photo 4">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Alton & Sierra . All rights reserved.</p>
+    </footer>
+</body>
+</html>

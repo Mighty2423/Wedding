@@ -125,9 +125,9 @@ footer {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
-    max-length: auto;
     position: relative;
     margin: auto;
+    border: 10px #800000;
 }
 
 /* Hide the images by default */
@@ -214,4 +214,33 @@ footer {
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+}
+
+
+/* Slideshow container */
+.slideshow-container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+    display: none;
+}
+
+/* Fading animation */
+.fade2 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .slideshow-container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
 }

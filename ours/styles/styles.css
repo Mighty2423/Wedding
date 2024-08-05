@@ -52,7 +52,7 @@ section {
 }
 
 .our-story img, .gallery img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -125,6 +125,7 @@ footer {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
+    max-length: auto;
     position: relative;
     margin: auto;
 }

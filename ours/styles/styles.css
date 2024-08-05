@@ -4,18 +4,21 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #fff; /* White background */
+    text-align: center;
 }
 
 header {
-    background-color: #f7f7f7;
+    background-color: #001f3f; /* Navy background */
     padding: 20px 0;
     text-align: center;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 10px solid #800000; /* Maroon border */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #fff; /* White text */
 }
 
 header nav ul {
@@ -30,7 +33,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff; /* White text */
     font-weight: bold;
 }
 
@@ -75,36 +78,39 @@ section {
     max-width: 500px;
     padding: 10px;
     margin-top: 5px;
+    border: 5px solid #800000; /* Maroon border */
 }
 
 .rsvp form button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+    background-color: #001f3f; /* Navy background */
+    color: #fff; /* White text */
+    border: 2px solid #800000; /* Maroon border */
     cursor: pointer;
 }
 
 .rsvp form button:hover {
-    background-color: #555;
+    background-color: #800000; /* Maroon background */
 }
 
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
 }
 
-.gallery img {
-    width: calc(25% - 10px);
+.gallery-container img {
+    width: 45%;
     height: auto;
+    border: 5px solid #800000; /* Maroon border */
 }
 
 footer {
-    background-color: #f7f7f7;
-    padding: 20px 0;
+    background-color: #001f3f; /* Navy background */
+    color: #fff; /* White text */
     text-align: center;
-    border-top: 2px solid #ccc;
+    padding: 10px 0;
+    border-top: 10px solid #800000; /* Maroon border */
 }

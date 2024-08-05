@@ -4,8 +4,9 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fff; /* White background */
+    background-color: #ffffff; /* White background */
     text-align: center;
+    
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 4.5em;
     color: #fff; /* White text */
 }
 
@@ -43,6 +44,7 @@ header nav ul li a:hover {
 
 main {
     padding: 20px;
+    font-size: 20px;
 }
 
 section {
@@ -113,4 +115,9 @@ footer {
     text-align: center;
     padding: 10px 0;
     border-top: 10px solid #800000; /* Maroon border */
+}
+
+.img{
+    width: 50px;
+    height: auto;
 }
